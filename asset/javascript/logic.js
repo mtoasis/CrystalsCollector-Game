@@ -54,15 +54,19 @@ $("#your_number").text(totalScore);
 
 if (totalScore == random_numb){
 	wins +=1;
+	$("#score_board").html("<strong>You Win!</strong><br>"+"Wins: "+wins+"<br>"+"Losses: "+losses);
 	clear();
 	random_number_generator()
 }
 else if (totalScore > random_numb){
 	losses +=1;
+	$("#score_board").html("<strong>You Lost!</strong><br>"+"Wins: "+wins+"<br>"+"Losses: "+losses);
 	clear();
 	random_number_generator()
 }
-$("#score_board").html("Wins: "+wins+"<br>"+"Losses: "+losses);
+else{
+$("#score_board").html("Wins: "+wins+"<br>"+"Losses: "+losses)
+};
 
 };
 

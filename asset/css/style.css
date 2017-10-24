@@ -94,3 +94,8 @@ body{
 .clear{
 	clear:both;
 }
+
+strong{
+	font-weight: bold;
+	color:red;
+}
