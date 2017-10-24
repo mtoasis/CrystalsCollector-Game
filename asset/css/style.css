@@ -7,13 +7,14 @@ body{
 	font-size: 50px;
 	background-color: #B973B9;
 	color: white;
-	padding:20px;	
+	padding:20px;
 }
 
 .guide{
 	border: 3px dotted #4169E1;
 	width:400px;
 	padding:10px;
+/*	float:left;	*/
 }
 
 .normal_text{
@@ -23,6 +24,7 @@ body{
 
 .head_div{
 	margin: 20px 20px 50px 0;
+	/*float:left;	*/
 	}
 
 #random_number{
@@ -31,6 +33,7 @@ body{
 	height:100px;
 	margin: 20px 0;	
 	float:left;
+
 }
 
 .large_text{
@@ -55,6 +58,8 @@ body{
 	height:100px;
 	margin:0 0 20px 0;
 	float:left;
+	display: block;
+
 }
 
 .crystal_images{
@@ -86,3 +91,6 @@ body{
 	margin:0 0 20px 0;
 }
 
+.clear{
+	clear:both;
+}
